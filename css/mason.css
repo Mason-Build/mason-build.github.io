@@ -1,0 +1,51 @@
+.main {
+    background-image: url('../img/background_01.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0,0,0,0.25);
+    background-repeat: repeat;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  height: 100vh;
+}    
+
+.mason-dark {
+  color: #3C3C3B;
+}
+
+.mason-secondary {
+  color: #A090D0;
+}
+
+.mason-warning {
+  color: #AAB9D7;
+}
+
+.mason-danger {
+  color: #B3E1DD;
+}
+
+.mason-link {
+  text-decoration: none;
+  color: #3C3C3B;
+}
+
+.mason-link:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.circle-icon {
+    background: #AAB9D7;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 24px;
+}
